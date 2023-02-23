@@ -34,13 +34,13 @@ export default NextAuth({
         );
 
         return {
-          ...session,
-          activeSubscription: userActiveSubscription
+          activeSubscription: userActiveSubscription,
+          ...session
         };
       } catch {
         return {
-          ...session,
-          activeSubscription: null
+          activeSubscription: null,
+          ...session
         };
       }
     },
