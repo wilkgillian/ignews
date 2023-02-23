@@ -1,4 +1,4 @@
-import NextAuth from 'next-auth';
+import NextAuth, { Session } from 'next-auth';
 import { query as q } from 'faunadb';
 import GithubProvider from 'next-auth/providers/github';
 import { fauna } from '../../../services/fauna';
@@ -11,7 +11,7 @@ export default NextAuth({
     })
   ],
   callbacks: {
-    async session({ session }) {
+    async session({ session }): Promise<any> {
       try {
         const userActiveSubscription = await fauna.query(
           q.Get(
