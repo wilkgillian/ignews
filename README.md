@@ -25,6 +25,7 @@
  <p>A aplicação é construída com modelo <strong>Serveless</strong>, sem necessidade de criar uma API externa para manipular os dados 🚀</p>
 
 ## 🚀 Tecnologias utilizadas
+
 - [NextJS](https://nextjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
@@ -32,24 +33,30 @@
 - [Stripe](https://stripe.com/docs/payments)
 - [Prismic.io](https://prismic.io/)
 
-
 ## :eyes: Demonstração da aplicação
+
 <a target="_blank" href="https://ignews-felipenkniess.vercel.app/">
   <img src="./public/images/ignews-preview.gif" alt="License MIT">
 </a>
 
 ## :fire: Execução da aplicação em produção
-- Link da aplicação: https://ignews-felipenkniess.vercel.app/
-- :credit_card: para realizar a assinatura sem precisar usar seu cartão de crédito, pode utilizar esse número fake: ``` 4242 4242 4242 4242 ```
+
+<!-- - Link da aplicação: https://ignews-felipenkniess.vercel.app/ -->
+
+- :credit_card: para realizar a assinatura sem precisar usar seu cartão de crédito, pode utilizar esse número fake: `4242 4242 4242 4242`
 
 ## :octocat: Execução da aplicação em desenvolvimento
+
 - Requisítos: Instalar [Git](https://git-scm.com/), [Node](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/)
 - Baixar o repositório na máquina e entrar no projeto:
+
 ```bash
-$ git clone https://github.com/FelipenKniess/ignews.git
+$ git clone https://github.com/wilkgillian/ignews.git
 $ cd ignews
 ```
+
 - baixar as dependências do projeto e executar o projeto:
+
 ```bash
 $ yarn
 $ yarn dev
