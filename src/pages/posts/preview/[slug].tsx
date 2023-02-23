@@ -20,7 +20,7 @@ interface PostPreviewProps {
 }
 
 export default function PostPreviw({ post }: PostPreviewProps) {
-  const session = useSession();
+  const session: any = useSession();
   const router = useRouter();
 
   useEffect(() => {
